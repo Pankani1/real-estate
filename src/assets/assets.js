@@ -36,14 +36,14 @@ export const assets = {
 export const projectsData = [
     {
       title: "Skyline Haven",
-      price: "$2,50,000",
-      location: "California",
+      price: "GHS2,50,000",
+      location: "Accra",
       image: project_img_1
     },
     {
       title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
+      price: "GHS2,50,000",
+      location: "Kumasi",
       image: project_img_2
     },
     {

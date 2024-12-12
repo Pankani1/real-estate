@@ -3,9 +3,12 @@ import { testimonialsData, assets } from '../assets/assets';
 
 const Testimonials = () => {
   return (
-    <div className='container mx-auto py-10 lg:px-32 w-full overflow-hidden' id='Testimonials'>
+    <div 
+      className='w-full h-screen flex flex-col justify-center items-center bg-gray-100' 
+      id='Testimonials'
+    >
       {/* Heading */}
-      <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>
+      <h1 className='text-3xl sm:text-4xl font-bold mb-4 text-center'>
         Customer <span className='underline underline-offset-4 decoration-1 font-light'>Testimonials</span>
       </h1>
       <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>
@@ -15,7 +18,7 @@ const Testimonials = () => {
       {/* Testimonials Cards */}
       <div className='flex flex-wrap justify-center gap-8 lg:gap-12'>
         {testimonialsData.map((testimonial, index) => (
-          <div key={index} className='max-w-[340px] border shadow-lg rounded-lg px-8 py-12 text-center'>
+          <div key={index} className='max-w-[340px] w-full md:w-[300px] lg:w-[280px] border shadow-lg rounded-lg px-8 py-12 text-center'>
             {/* Profile Image */}
             <img
               className='w-20 h-20 rounded-full mx-auto mb-4'

@@ -17,7 +17,7 @@ return (
     <Projects/>
     <Testimonials/>
     <Contact/>
-    <Footer/>
+   
   </div>
 )
 }
